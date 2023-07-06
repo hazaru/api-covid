@@ -1,0 +1,50 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #result-container {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #result-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #result-container th,
+  #result-container td {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .chart-container {
+    width: 100%;
+    margin-top: 20px;
+  }
